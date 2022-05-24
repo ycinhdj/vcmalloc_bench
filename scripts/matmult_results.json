@@ -1,0 +1,862 @@
+{
+	"Matrix Multiplication" : 
+	{
+		"m" : 
+		{
+			"double" : 
+			{
+				"1000" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "43.0303955078125"
+						},
+						"Cycles" : 
+						{
+							"1" : "849"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "614290620"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "896718"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "0"
+						}
+					}
+				},
+				"2000" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "675.04681396484375"
+						},
+						"Cycles" : 
+						{
+							"1" : "13659"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "7734486647"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "172418364"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "0"
+						}
+					}
+				},
+				"3000" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "5510.2018432617188"
+						},
+						"Cycles" : 
+						{
+							"1" : "121208"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "16882733468"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "86801636"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "32768"
+						}
+					}
+				},
+				"4000" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "15915.549560546875"
+						},
+						"Cycles" : 
+						{
+							"1" : "361435"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "61683081900"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "191472273"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				},
+				"5000" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "36136.570190429688"
+						},
+						"Cycles" : 
+						{
+							"1" : "825507"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "125368109124"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "396645971"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				},
+				"6000" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "68259.602172851562"
+						},
+						"Cycles" : 
+						{
+							"1" : "1556300"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "217379459523"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "2038651436"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				},
+				"7000" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "111022.16760253906"
+						},
+						"Cycles" : 
+						{
+							"1" : "2595259"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "345465997849"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "1834659676"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				},
+				"8000" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "178750.45690917969"
+						},
+						"Cycles" : 
+						{
+							"1" : "4004202"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "518664650580"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "7178443009"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				}
+			}
+		},
+		"mim" : 
+		{
+			"double" : 
+			{
+				"10" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "48.34637451171875"
+						},
+						"Cycles" : 
+						{
+							"1" : "1057"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "915887403"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "1088254"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "0"
+						}
+					}
+				},
+				"20" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "656.65191650390625"
+						},
+						"Cycles" : 
+						{
+							"1" : "14581"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "7564236752"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "626568055"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "0"
+						}
+					}
+				},
+				"30" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "5144.250732421875"
+						},
+						"Cycles" : 
+						{
+							"1" : "120678"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "26493214203"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "5783335213"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709518848"
+						}
+					}
+				},
+				"40" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "16101.810729980469"
+						},
+						"Cycles" : 
+						{
+							"1" : "379525"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "61752601711"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "37429967852"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709477888"
+						}
+					}
+				},
+				"50" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "42232.328796386719"
+						},
+						"Cycles" : 
+						{
+							"1" : "1002315"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "121538799352"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "92805434220"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				},
+				"60" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "75408.281799316406"
+						},
+						"Cycles" : 
+						{
+							"1" : "1815620"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "209260969240"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "191215149793"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709477888"
+						}
+					}
+				},
+				"70" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "124550.69018554688"
+						},
+						"Cycles" : 
+						{
+							"1" : "3020291"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "331595396243"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "305959422178"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				},
+				"80" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "187357.93157958984"
+						},
+						"Cycles" : 
+						{
+							"1" : "4571726"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "498500027130"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "464999010124"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				}
+			}
+		},
+		"vcm_affarr" : 
+		{
+			"double" : 
+			{
+				"10" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "35.7752685546875"
+						},
+						"Cycles" : 
+						{
+							"1" : "801"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "71558136"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "407166"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "0"
+						}
+					}
+				},
+				"20" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "492.02764892578125"
+						},
+						"Cycles" : 
+						{
+							"1" : "12315"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "1021406143"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "522452314"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "0"
+						}
+					}
+				},
+				"30" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "3408.5479736328125"
+						},
+						"Cycles" : 
+						{
+							"1" : "84451"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "9869856738"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "64353397"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709518848"
+						}
+					}
+				},
+				"40" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "10688.679077148438"
+						},
+						"Cycles" : 
+						{
+							"1" : "257731"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "60174163399"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "379628353"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				},
+				"50" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "23435.796447753906"
+						},
+						"Cycles" : 
+						{
+							"1" : "568232"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "119286318702"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "504658020"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				},
+				"60" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "44826.381469726562"
+						},
+						"Cycles" : 
+						{
+							"1" : "1088835"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "216598005517"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "1546524945"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				},
+				"70" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "76202.086181640625"
+						},
+						"Cycles" : 
+						{
+							"1" : "1837192"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "343632555225"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "4740266840"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				},
+				"80" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "119444.97784423828"
+						},
+						"Cycles" : 
+						{
+							"1" : "2901602"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "513027282668"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "25413232243"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				}
+			}
+		},
+		"vcm_spf" : 
+		{
+			"double" : 
+			{
+				"10" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "36.30169677734375"
+						},
+						"Cycles" : 
+						{
+							"1" : "828"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "66323019"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "344410"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "0"
+						}
+					}
+				},
+				"20" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "550.662841796875"
+						},
+						"Cycles" : 
+						{
+							"1" : "13093"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "880306415"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "130918386"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "0"
+						}
+					}
+				},
+				"30" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "3621.5349731445312"
+						},
+						"Cycles" : 
+						{
+							"1" : "86357"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "22069619678"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "92974684"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709518848"
+						}
+					}
+				},
+				"40" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "10872.05224609375"
+						},
+						"Cycles" : 
+						{
+							"1" : "258644"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "63465338671"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "413173471"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				},
+				"50" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "24227.81591796875"
+						},
+						"Cycles" : 
+						{
+							"1" : "580797"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "123436665575"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "1594316353"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				},
+				"60" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "46056.106018066406"
+						},
+						"Cycles" : 
+						{
+							"1" : "1124301"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "217261975672"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "1454342619"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				},
+				"70" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "78049.598205566406"
+						},
+						"Cycles" : 
+						{
+							"1" : "1881190"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "345189882138"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "3426411475"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				},
+				"80" : 
+				{
+					"Multiplication" : 
+					{
+						"Consumed Joules" : 
+						{
+							"1" : "121877.14031982422"
+						},
+						"Cycles" : 
+						{
+							"1" : "2960444"
+						},
+						"L2 Cache Misses" : 
+						{
+							"1" : "515220371335"
+						},
+						"L3 Cache Misses" : 
+						{
+							"1" : "26035163220"
+						},
+						"Memory Consumption" : 
+						{
+							"1" : "18446744073709457408"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
