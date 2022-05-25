@@ -1,5 +1,5 @@
 # vcmalloc_bench
-These are a set of programs and scripts made specifically to test the performance of VCMalloc, MIMalloc and Malloc.
+These are a set of programs and scripts made specifically to test the performance and pertinence of VCMalloc, MIMalloc and Malloc.
 
 The folder "libs_src" contains the libraries sources used in the tests: VCMalloc, MIMalloc and Intel PCM
 The folder "libs_static" contains the built libraries of MIMalloc and Intel PCM (The build instructions for each library are available in their respective repositories)
@@ -24,3 +24,10 @@ To run the tests:
 cd into "scripts" folder with an elevated terminal
 run .cmd file of the desired scenario
 after the tests are finished run read\_n\_plot.py to generate figures
+
+Acknowledgment:
+This project is initiated by RCAM laboratory as part of the thesis project realized by Yacine Hadjadj and supervised by Taleb Nasreddine and CMA Zouaoui.
+
+Contact:
+yacine.hadjadj@univ-sba.dz
+ycin.hdj@gmail.com
