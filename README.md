@@ -2,11 +2,11 @@
 These are a set of programs and scripts made specifically to test the performance and pertinence of VCMalloc, MIMalloc and Malloc.
 
 ## Project structure
--The folder "libs_src" contains the libraries sources used in the tests: VCMalloc, MIMalloc and Intel PCM
-- The folder "libs_static" contains the built libraries of MIMalloc and Intel PCM (The build instructions for each library are available in their respective repositories)
-- The folders "vcmalloc\_bench" and "vcmalloc\_bench_cuda" contain the source code of the test programs
-- The folder "out" contains the build output of the test programs
-- The folder "scripts" contains batch and python scripts to run successive tests on different scenarios and the python program reads the trsts results file (.json) and plot those results into figures
+- The folder [libs_src](libs_src) contains the libraries sources used in the tests: VCMalloc, MIMalloc and Intel PCM
+- The folder [libs_static](libs_static) contains the built libraries of MIMalloc and Intel PCM (The build instructions for each library are available in their respective repositories)
+- The folders [vcmalloc\_bench](vcmalloc\_bench) and [vcmalloc\_bench_cuda](vcmalloc\_bench_cuda) contain the source code of the test programs
+- The folder [out](out) contains the build output of the test programs
+- The folder [scripts](scripts) contains batch and python scripts to run successive tests on different scenarios and the python program reads the trsts results file (.json) and plot those results into figures
 
 ## Building
 ### Requirements:
