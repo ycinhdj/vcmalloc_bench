@@ -9,7 +9,7 @@ These are a set of programs and scripts made specifically to test the performanc
 - The folder [scripts](scripts) contains batch and python scripts to run successive tests on different scenarios and the python program reads the trsts results file (.json) and plot those results into figures
 
 ## Building
-### Requirements:
+### Requirements
 - Visual Studio 2019 with VC++ latest version
 - vcpkg with jsoncpp (x64) and visual studio integration
 ### Steps:
@@ -24,7 +24,7 @@ This repository contains already built binaries that can be directly used to lau
 
 ## Generating the figures
 ### Requirements
-To generate figures from the tests results, python 3 is reauires with the following libraries
+To generate figures from the tests results, python 3 is reauired with the following libraries
 - pandas
 - matplotlib
 - numpy
@@ -32,7 +32,7 @@ To generate figures from the tests results, python 3 is reauires with the follow
 After the tests are finished run read\_n\_plot.py located inside [scripts](scripts) folder to generate figures
 
 ## Acknowledgment:
-This project is initiated by RCAM laboratory as part of the thesis project realized by Yacine Hadjadj and supervised by Taleb Nasreddine and CMA Zouaoui.
+This project is initiated by [RCAM](www.univ-sba.dz/rcam) laboratory as part of the thesis project realized by [Yacine Hadjadj](www.linkedin.com/in/ycinhdj) and supervised by [Taleb Nasreddine](scholar.google.com/citations?user=tjpgMDAAAAAJ) and [CMA Zouaoui](www.univ-sba.dz/rcam/index.php/equipes/equipe-4?view=article&id=25&catid=8).
 
 ## Contact:
 yacine.hadjadj@univ-sba.dz
