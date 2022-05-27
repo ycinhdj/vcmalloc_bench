@@ -1,22 +1,24 @@
 # vcmalloc_bench
 These are a set of programs and scripts made specifically to test the performance and pertinence of [VCMalloc](https://github.com/ycnhdj/vcmalloc), [MIMalloc](https://github.com/microsoft/mimalloc) and Malloc.
 ## Project structure
-- The folder [libs_src](libs_src) contains the libraries sources used in the tests: [VCMalloc](https://github.com/ycnhdj/vcmalloc), [MIMalloc](https://github.com/microsoft/mimalloc) and [Intel PCM](https://github.com/opcm/pcm)
+- The folder [libs_src](libs_src) contains the sources of the libraries used in the tests: [VCMalloc](https://github.com/ycnhdj/vcmalloc), [MIMalloc](https://github.com/microsoft/mimalloc) and [Intel PCM](https://github.com/opcm/pcm)
 - The folder [libs_static](libs_static) contains the built libraries of [MIMalloc](https://github.com/microsoft/mimalloc) and [Intel PCM](https://github.com/opcm/pcm) (The build instructions for each library are available in their respective repositories)
 - The folders [vcmalloc\_bench](vcmalloc\_bench) and [vcmalloc\_bench_cuda](vcmalloc\_bench_cuda) contain the source code of the test programs
 - The folder [out](out) contains the build output of the test programs
 - The folder [scripts](scripts) contains batch and python scripts to run successive tests on different scenarios and the python program reads the trsts results file (.json) and plot those results into figures
 ## Building
 ### Requirements
-- Visual Studio 2019 with VC++ latest version
+- Visual Studio 2019 with the latest version of VC++
 - vcpkg with jsoncpp (x64) and visual studio integration
 ### Steps:
 - [Add lock pages in memory priviledge](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows) to the logged user
-- Clone this repository
+- Install [Vcpkg](https://github.com/microsoft/vcpkg)
+- Install JsonCpp ```console vcpkg install jsoncpp:x64-windows```
+- Clone this repository ```console git clone https://github.com/ycnhdj/vcmalloc_bench.git```
 - Open .sln file with Visual Studio 2019 and build with "Release" mode and "x64" architecture.
 ## Pre-Built Binaries
 This repository contains already built binaries that can be directly used to launch the tests, the steps to run the pre-built binaries are:
-- Clone this repository
+- Clone this repository ```console git clone https://github.com/ycnhdj/vcmalloc_bench.git```
 - cd to [scripts](scripts) folder in an elevated command prompt
 - Launch the ".cmd" files
 ## Generating the figures
