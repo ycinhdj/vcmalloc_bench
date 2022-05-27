@@ -8,7 +8,7 @@ These are a set of programs and scripts made specifically to test the performanc
 - The folder "out" contains the build output of the test programs
 - The folder "scripts" contains batch and python scripts to run successive tests on different scenarios and the python program reads the trsts results file (.json) and plot those results into figures
 
-##Building
+## Building
 ### Requirements:
 - Visual Studio 2019 with VC++ latest version
 - vcpkg with jsoncpp (x64) and visual studio integration
