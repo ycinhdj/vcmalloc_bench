@@ -47,7 +47,7 @@ pip install matplotlib numpy pandas
 py read_and_plot.py
 ```
 ## Acknowledgment:
-This project is initiated by [RCAM](https://www.univ-sba.dz/rcam) laboratory as part of the thesis project realized by [Yacine Hadjadj](https://www.linkedin.com/in/ycinhdj) and supervised by [Taleb Nasreddine](https://scholar.google.com/citations?user=tjpgMDAAAAAJ) and [CMA Zouaoui](https://www.univ-sba.dz/rcam/index.php/equipes/equipe-4?view=article&id=25&catid=8).
+This project is initiated by [RCAM](https://www.univ-sba.dz/rcam) laboratory as part of the thesis project realized by [Yacine Hadjadj](https://www.linkedin.com/in/ycinhdj) and supervised by [Taleb Nasreddine](https://scholar.google.com/citations?user=tjpgMDAAAAAJ) and [CMA Zouaoui](https://scholar.google.com/citations?user=LWPvZI4AAAAJ).
 ## Contact:
 yacine.hadjadj@univ-sba.dz
 ycin.hdj@gmail.com
