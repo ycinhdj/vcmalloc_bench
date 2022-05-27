@@ -13,7 +13,7 @@ These are a set of programs and scripts made specifically to test the performanc
 - Visual Studio 2019 with VC++ latest version
 - vcpkg with jsoncpp (x64) and visual studio integration
 ### Steps:
-- Add lock pages in memory priviledge to the logged user
+- [Add lock pages in memory priviledge](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows) to the logged user
 - Clone this repository
 - Open .sln file with Visual Studio 2019 and build with "Release" mode and "x64" architecture.
 
