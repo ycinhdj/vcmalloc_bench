@@ -29,9 +29,7 @@ To generate figures from the tests results, python 3 is reauires with the follow
 - matplotlib
 - numpy
 ### Steps
-cd into "scripts" folder with an elevated terminal
-run .cmd file of the desired scenario
-after the tests are finished run read\_n\_plot.py to generate figures
+After the tests are finished run read\_n\_plot.py located inside [scripts](scripts) folder to generate figures
 
 ## Acknowledgment:
 This project is initiated by RCAM laboratory as part of the thesis project realized by Yacine Hadjadj and supervised by Taleb Nasreddine and CMA Zouaoui.
