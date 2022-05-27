@@ -31,7 +31,7 @@ To generate figures from the tests results, python 3 is reauired with the follow
 ```console
 pip install matplotlib numpy pandas
 ```
-- Run read\_n\_plot.py located inside [scripts](scripts) folder to generate figures
+- Run read\_n\_plot.py
 ```console
 py read_and_plot.py
 ```
