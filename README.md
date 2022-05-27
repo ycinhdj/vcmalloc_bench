@@ -13,12 +13,21 @@ These are a set of programs and scripts made specifically to test the performanc
 ### Steps:
 - [Add lock pages in memory priviledge](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows) to the logged user
 - Install [Vcpkg](https://github.com/microsoft/vcpkg)
-- Install JsonCpp ```console vcpkg install jsoncpp:x64-windows```
-- Clone this repository ```console git clone https://github.com/ycnhdj/vcmalloc_bench.git```
+- Install JsonCpp
+```console
+vcpkg install jsoncpp:x64-windows
+```
+- Clone this repository 
+```console
+git clone https://github.com/ycnhdj/vcmalloc_bench.git
+```
 - Open .sln file with Visual Studio 2019 and build with "Release" mode and "x64" architecture.
 ## Pre-Built Binaries
 This repository contains already built binaries that can be directly used to launch the tests, the steps to run the pre-built binaries are:
-- Clone this repository ```console git clone https://github.com/ycnhdj/vcmalloc_bench.git```
+- Clone this repository
+```console
+git clone https://github.com/ycnhdj/vcmalloc_bench.git
+```
 - cd to [scripts](scripts) folder in an elevated command prompt
 - Launch the ".cmd" files
 ## Generating the figures
