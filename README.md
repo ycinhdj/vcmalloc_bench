@@ -13,8 +13,9 @@ These are a set of programs and scripts made specifically to test the performanc
 - [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64)
 ### Steps:
 - [Add lock pages in memory priviledge](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows) to the logged user
-- Install [isual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/)
+- Install [Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/)
 - Install [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64)
+- Install [Git](https://git-scm.com/download/win)
 - Install [Vcpkg](https://github.com/microsoft/vcpkg/)
 - Install [JsonCpp](https://github.com/open-source-parsers/jsoncpp/)
 ```console
