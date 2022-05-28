@@ -8,15 +8,15 @@ These are a set of programs and scripts made specifically to test the performanc
 - The folder [scripts](scripts) contains batch and python scripts to run successive tests on different scenarios and the python program reads the trsts results file (.json) and plot those results into figures
 ## Building
 ### Requirements
-- Visual Studio 2019 with the latest version of VC++
-- vcpkg with jsoncpp (x64) and visual studio integration
+- [Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/) with the latest version of VC++
+- [Vcpkg](https://github.com/microsoft/vcpkg) with JsonCpp (x64) and visual studio integration
 - [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64)
 ### Steps:
 - [Add lock pages in memory priviledge](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows) to the logged user
 - Install [isual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/)
 - [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64)
-- Install [Vcpkg](https://github.com/microsoft/vcpkg)
-- Install JsonCpp
+- Install [Vcpkg](https://github.com/microsoft/vcpkg/)
+- Install [JsonCpp](https://github.com/open-source-parsers/jsoncpp/)
 ```console
 vcpkg install jsoncpp:x64-windows
 ```
