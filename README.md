@@ -9,7 +9,7 @@ These are a set of programs and scripts made specifically to test the performanc
 ## Building
 ### Requirements
 - [Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/) with the latest version of VC++
-- [Vcpkg](https://github.com/microsoft/vcpkg) with JsonCpp (x64) and visual studio integration
+- [Vcpkg](https://github.com/microsoft/vcpkg) with [JsonCpp](https://github.com/open-source-parsers/jsoncpp) (x64) and visual studio integration
 - [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64)
 ### Steps:
 - [Add lock pages in memory priviledge](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows) to the logged user
