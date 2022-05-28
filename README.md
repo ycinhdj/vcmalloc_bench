@@ -8,7 +8,7 @@ These are a set of programs and scripts made specifically to test the performanc
 - The folder [scripts](scripts) contains batch and python scripts to run successive tests on different scenarios and the python program reads the trsts results file (.json) and plot those results into figures
 ## Building
 ### Requirements
-- [Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/) with the latest version of VC++
+- [Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/) with "Desktop development with C++" workload and "C++/CLI support for build tools" for the latest version in installation details
 - [Vcpkg](https://github.com/microsoft/vcpkg) with [JsonCpp](https://github.com/open-source-parsers/jsoncpp) (x64) and Visual Studio integration
 - [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64)
 ### Steps:
