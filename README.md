@@ -37,7 +37,7 @@ To generate figures from the tests results, python 3 is reauired with the follow
 - matplotlib
 - numpy
 ### Steps
-- Download [Python](https://www.python.org/downloads/)
+- Install [Python](https://www.python.org/downloads/)
 - Install required python libraries
 ```console
 pip install matplotlib numpy pandas
