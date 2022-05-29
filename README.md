@@ -5,7 +5,9 @@ These are a set of programs and scripts made specifically to test the performanc
 - The folder [libs_static](libs_static) contains the built libraries of [MIMalloc](https://github.com/microsoft/mimalloc) and [Intel PCM](https://github.com/opcm/pcm) (The build instructions for each library are available in their respective repositories)
 - The folders [vcmalloc\_bench](vcmalloc\_bench) and [vcmalloc\_bench_cuda](vcmalloc\_bench_cuda) contain the source code of the test programs
 - The folder [out](out) contains the build output of the test programs
-- The folder [scripts](scripts) contains batch and python scripts to run successive tests on different scenarios and the python program reads the trsts results file (.json) and plot those results into figures
+- The folder [scripts](scripts) contains batch and python scripts that can be used to:
+- - Run successive tests on different scenarios
+- - Read the tests results file (.json) and plot those results into figures
 ## Building
 ### Requirements
 - [Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/) with "Desktop development with C++" workload and "C++/CLI support for build tools" for the latest version in installation details
@@ -36,6 +38,7 @@ git clone https://github.com/ycnhdj/vcmalloc_bench.git
 - cd to [scripts](scripts) folder in an elevated command prompt
 - Launch the ".cmd" files
 ## Generating the figures
+This repository has the results from the tests that we performed (.json files in [scripts](scripts) folder), with their generated figures.
 ### Requirements
 To generate figures from the tests results, python 3 is reauired with the following libraries
 - pandas
