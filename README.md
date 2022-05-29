@@ -40,7 +40,7 @@ git clone https://github.com/ycnhdj/vcmalloc_bench.git
 ## Generating the figures
 This repository has the results from the tests that we performed (.json files in [scripts](scripts) folder), with their generated figures.
 ### Requirements
-To generate figures from the tests results, python 3 is reauired with the following libraries
+To generate figures from the tests results, python 3 is required with the following libraries
 - pandas
 - matplotlib
 - numpy
