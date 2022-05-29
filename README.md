@@ -6,8 +6,8 @@ These are a set of programs and scripts made specifically to test the performanc
 - The folders [vcmalloc\_bench](vcmalloc\_bench) and [vcmalloc\_bench_cuda](vcmalloc\_bench_cuda) contain the source code of the test programs
 - The folder [out](out) contains the build output of the test programs
 - The folder [scripts](scripts) contains batch and python scripts that can be used to:
-- - Run successive tests on different scenarios
-- - Read the tests results file (.json) and plot those results into figures
+ - Run successive tests on different scenarios
+ - Read the tests results file (.json) and plot those results into figures
 ## Building
 ### Requirements
 - [Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/) with "Desktop development with C++" workload and "C++/CLI support for build tools" for the latest version in installation details
