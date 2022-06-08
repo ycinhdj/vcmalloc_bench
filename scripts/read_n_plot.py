@@ -37,9 +37,9 @@ results = []
 #This is useful when performing tests in different PCs and then putting the results.json from other PCs in this fodlder
 filenames = list(pathlib.Path('./').glob('*.json'))
 
-for fileName in fileNames:
+for filename in filenames:
     # extract data
-    with open(fileName) as json_file:
+    with open(filename) as json_file:
         json_value = json.load(json_file)
         for scenario in json_value:
             scenarios.append(scenario)
