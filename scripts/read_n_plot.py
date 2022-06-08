@@ -33,9 +33,9 @@ sizes = []
 tests = []
 results = []
 
- #fileNames = ['matmult_results.json', 'results.json']
-
-fileNames = ['results.json', 'matmult_results.json']
+#fileNames = ['matmult_results.json', 'results.json']
+#This is useful when performing tests in different PCs and then putting the results.json from other PCs in this fodlder
+filenames = list(pathlib.Path('./').glob('*.json'))
 
 for fileName in fileNames:
     # extract data
