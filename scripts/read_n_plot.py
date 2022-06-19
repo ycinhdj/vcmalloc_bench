@@ -1,7 +1,6 @@
 import json
 from telnetlib import NOP
 import traceback
-from turtle import width
 from matplotlib import rcParams
 import matplotlib.pyplot as plt
 from numpy import log2, sqrt
