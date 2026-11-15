@@ -1,9 +1,13 @@
 # vcmalloc_bench
-These are a set of programs and scripts made specifically to test the performance and pertinence of [VCMalloc](https://github.com/ycinhdj/vcmalloc), [MIMalloc](https://github.com/microsoft/mimalloc) and Malloc.
+These are a set of programs and scripts made specifically to test the performance and pertinence of [VCMalloc](https://github.com/ycinhdj/vcmalloc), [MIMalloc](https://github.com/microsoft/mimalloc) and Malloc: on the CPU, for CUDA host allocation, and on a Raspberry Pi.
+
+The papers that use these benchmarks are listed in [VCMalloc](https://github.com/ycinhdj/vcmalloc#publications).
 ## Project structure
 - The folder [libs_src](libs_src) contains the sources of the libraries used in the tests: [VCMalloc](https://github.com/ycinhdj/vcmalloc), [MIMalloc](https://github.com/microsoft/mimalloc) and [Intel PCM](https://github.com/opcm/pcm)
 - The folder [libs_static](libs_static) contains the built libraries of [MIMalloc](https://github.com/microsoft/mimalloc) and [Intel PCM](https://github.com/opcm/pcm) (The build instructions for each library are available in their respective repositories)
 - The folders [vcmalloc\_bench](vcmalloc\_bench) and [vcmalloc\_bench_cuda](vcmalloc\_bench_cuda) contain the source code of the test programs
+- The folder [cudabench](cudabench) contains the CUDA benchmark of VCMalloc host allocation for CPU–GPU transfers (pageable, pinned and pinning; time and energy): [kernel.cu](cudabench/kernel.cu), its [results](cudabench/results.csv) and [plot.py](cudabench/plot.py). Formerly [vcmalloc\_cudabench](https://github.com/ycinhdj/vcmalloc_cudabench).
+- The folder [rpibench](rpibench) contains the Raspberry Pi benchmark (k-means, k-NN and matrix multiplication; time and memory): [vcmalloc\_rpibench.cpp](rpibench/vcmalloc_rpibench.cpp), [run.ps1](rpibench/run.ps1), its [results](rpibench/results) and [plot.py](rpibench/plot.py). Formerly [vcmalloc\_rpibench](https://github.com/ycinhdj/vcmalloc_rpibench).
 - The folder [out](out) contains the build output of the test programs
 - The folder [scripts](scripts) contains batch and python scripts that can be used to:
     - Run successive tests on different scenarios
